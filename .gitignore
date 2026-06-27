@@ -1,0 +1,32 @@
+# === 凭证 / 密钥（绝不推送）===
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+*token*
+credentials*
+*.ghtoken
+*.netrc
+.id_rsa
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# === 临时 / 日志 ===
+*.log
+*.tmp
+_tmp_*/
+.DS_Store
+Thumbs.db
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
